@@ -1,0 +1,90 @@
+/*******
+Portal: CGE - Controladoria do Estado do Rio de Janeiro
+Author: Wander Hungerbühler
+Ano: 2019
+*******/
+*{margin:0; padding:0; box-sizing:border-box;}
+img{width: 100%;}
+body{-webkit-font-smoothing: antialiased; font-family: "Montserrat", sans-serif; background: #f1f1f1;}
+/* ICONS */
+.redes li, .redes-ft li{ list-style: none; display: inline-block; border-right:1px solid #e2e2e2; width:25px;}
+.redes li:nth-child(5n), .redes-ft li:nth-child(5n){border-right:1px solid transparent;}
+.redes-ft{margin-top:50px;}
+.icons {width:17px; height: 17px; text-indent: -9999px; display: block;}
+.arrow-right{background: url('../imagens/arrow-right.svg') no-repeat center center; background-size: cover;}
+.arrow-left{background: url('../imagens/arrow-left.svg') no-repeat center center; background-size: cover;}
+.instagram{background: url('../imagens/instagram.svg') no-repeat center center; background-size: cover;}
+.instagram-ft{background: url('../imagens/instagram-ft.svg') no-repeat center center; background-size: cover;}
+.facebook{background: url('../imagens/facebook.svg') no-repeat center center; background-size: cover;}
+.facebook-ft{background: url('../imagens/facebook-ft.svg') no-repeat center center; background-size: cover;}
+.twitter{background: url('../imagens/twitter.svg') no-repeat center center; background-size: cover;}
+.twitter-ft{background: url('../imagens/twitter-ft.svg') no-repeat center center; background-size: cover;}
+.youtube{background: url('../imagens/youtube.svg') no-repeat center center; background-size: cover;}
+.youtube-ft{background: url('../imagens/youtube-ft.svg') no-repeat center center; background-size: cover;}
+.flickr{background: url('../imagens/flickr.svg') no-repeat center center; background-size: cover;}
+.flickr-ft{background: url('../imagens/flickr-ft.svg') no-repeat center center; background-size: cover;}
+
+/* MENUSUP */
+.menusup{background: #222222; padding-bottom: 3px;}
+.menusup li{list-style: none;}
+.menusupi{width:70%; padding:5px; margin:0 auto; display: flex; justify-content: space-between;}
+.menusup a{outline:none; font-weight: bold; text-decoration: none; color:#fff; margin-left:30px; font-size: .8em;}
+.infosup li{list-style: none; display: inline-block; vertical-align: middle;}
+.contrast::before, .accessibility::before {content: ""; width: 15px; height: 15px; vertical-align: middle;
+  display: inline-block; margin-right: 10px; margin-bottom: 2px;}
+.contrast::before {background: url(../imagens/contrast.svg) no-repeat center center; background-size: cover;}
+.accessibility::before{background: url(../imagens/accessibility.svg) no-repeat center center; background-size: cover;}
+
+/* MENU */
+.logo{width:130px; padding-right: 20px;}
+.menu{width: 100%; height: 80px; display: flex; justify-content: center; align-items: center; align-content: center;
+  background:#ffffff; padding:10px;}
+.list-menu {list-style: none; padding:10px; border-right: 1px solid #eaeaf0;}
+.list-menu li {display: inline-block; padding-right:20px;}
+.list-menu li a {text-decoration: none; font-size: .75em; color:#727272; transition: all .3s ease-in-out;
+  font-weight: 600;}
+.list-menu li a:hover {color:#02a847; transition: all .3s ease-in-out;}
+
+.sub-list-menu{position: absolute; top:125px; background:#ffffff; box-shadow: 0 -2px 15px rgba(0, 0, 0, .1);
+  display: none; border-radius: 5px; z-index: 100;}
+.sub-list-menu li{padding:1em; display: block;}
+.sub-list-menu li a {font-weight: 500;}
+
+.sub-list-menu::before{content:""; width:250px;  display: block; padding:10px;}
+
+
+.sub-list-menu::after{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  display: block;
+  position: absolute;
+  top:-10px;
+  left:10px;
+}
+
+/* .list-menu li:hover > .sub-list-menu{
+  display: block;
+  transition: all .3s ease-in-out;
+} */
+
+.btn-webmail {width:150px; padding:1em; border:0; background: transparent; border:1px solid #02a847; color:#02a847; font-weight: bold;
+  border-radius:6px; font-size: .9em; cursor: pointer; margin-left:40px; transition: all .3s ease-in-out;}
+.btn-webmail:hover{background:#02a847; border:1px solid #02a847; color:#ffffff; transition: all .3s ease-in-out;}
+
+
+
+
+/* CONTAINER */
+.container {width:75%; min-height:650px; margin:0 auto; background:red; padding:2em;}
+
+/* FOOTER */
+.footer{width: 100%; bottom:0; background:#02a847; color:#fff;
+  display: flex;  justify-content: space-around; flex-direction: column; align-items: center; padding:2em;}
+.footer h1{margin-top:15px; font-size:1.5em;}
+.footer span{font-weight: 300; font-size:.8em; text-align: center;}
+.logofooter{width:400px; height: 150px; background: url('../imagens/logo-governo-w.png') no-repeat center center;
+  background-size:70%;}

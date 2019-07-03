@@ -1,0 +1,22 @@
+<!-- CONTAINER -->
+    <div class="container">
+      <h1>Aqui vem o que o conteúdo será proposto...</h1>
+    </div>
+    <!-- #CONTAINER -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <h1 class="acessibilidadeFonte">Controladoria Geral do Estado do Rio de Janeiro - CGE-RJ</h1>
+      <span class="acessibilidadeFonte">Avenida Erasmo Braga, 118 – 12º e 13º andares. Centro – Rio de Janeiro – RJ | 20020-000</span>
+      <div class="redes-ft">
+        <ul>
+          <li><a class="icons instagram-ft" href="https://instagram.com/govrj" target="_blank">Instagram</a></li>
+          <li><a class="icons facebook-ft" href="https://facebook.com/governodorio" target="_blank">Facebook</a></li>
+          <li><a class="icons twitter-ft" href="https://twitter.com/GovRJ" target="_blank">Twitter</a></li>
+          <li><a class="icons youtube-ft" href="https://youtube.com/user/GovRJ" target="_blank">Youtube</a></li>
+          <li><a class="icons flickr-ft" href="https://www.flickr.com/photos/governodorio" target="_blank">Flickr</a></li>
+        </ul>
+      </div>
+      <div class="logofooter"></div>
+    </footer>
+    <!-- #FOOTER -->
